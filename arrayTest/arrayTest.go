@@ -22,10 +22,10 @@ func PrintArray() {
 }
 
 func PrintTestLowercase() {
-	fmt.Print("123")
+	fmt.Println("123")
 }
 
 // private method?
 func printTestLowercase() {
-	fmt.Print("123")
+	fmt.Println("123")
 }
