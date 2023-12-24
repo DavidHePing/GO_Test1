@@ -13,5 +13,9 @@ func main() {
 	// SliceTestPrint()
 
 	//array
-	ArrayTestPrint()
+	// ArrayTestPrint()
+
+	//for
+	// ForTest1()
+	ForTestArray()
 }
