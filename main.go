@@ -10,6 +10,6 @@ func main() {
 	// printTest.PrintTestLowercase()
 
 	//list
-	ArrayTestPrint()
+	SliceTestPrint()
 
 }
