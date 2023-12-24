@@ -21,5 +21,8 @@ func main() {
 
 	//if
 	// ifTest1()
-	ifTest1()
+	// ifTest1()
+
+	//switch
+	switchTest1()
 }
