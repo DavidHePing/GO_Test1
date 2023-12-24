@@ -12,6 +12,8 @@ func SliceTestPrint() {
 
 	list2 := make([]int, 4)
 	fmt.Println("list2: ", list2)
+	list2[3] = 12
+	fmt.Println("list2: ", list2)
 
 	var matrix [2][2]bool
 	fmt.Println("matrix ", matrix)
