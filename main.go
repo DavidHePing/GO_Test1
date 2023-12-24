@@ -9,7 +9,9 @@ func main() {
 	printTest.TestPrint()
 	// printTest.PrintTestLowercase()
 
-	//list
-	SliceTestPrint()
+	//slice(list)
+	// SliceTestPrint()
 
+	//array
+	ArrayTestPrint()
 }
