@@ -17,5 +17,9 @@ func main() {
 
 	//for
 	// ForTest1()
-	ForTestArray()
+	// ForTestArray()
+
+	//if
+	// ifTest1()
+	ifTest1()
 }
