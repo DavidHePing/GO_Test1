@@ -28,5 +28,8 @@ func main() {
 
 	//func
 	// funcTest1()
-	funcTest2()
+	// funcTest2()
+
+	//defer
+	deferTest1()
 }
