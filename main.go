@@ -27,5 +27,6 @@ func main() {
 	// switchTest1()
 
 	//func
-	funcTest1()
+	// funcTest1()
+	funcTest2()
 }

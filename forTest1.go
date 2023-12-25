@@ -18,10 +18,9 @@ func ForTestArray() {
 	}
 	fmt.Println("")
 
-	for num := range ary1 {
-		fmt.Print(num, ", ")
+	for index, num := range ary1 {
+		fmt.Println(index, ": ", num)
 	}
-	fmt.Println("")
 
 	map1 := map[int]int{
 		1: 123,
