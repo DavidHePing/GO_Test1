@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func SliceTestPrint() {
+func sliceTest1() {
 	list1 := []int{
 		1, 2, 3, 4,
 	}
