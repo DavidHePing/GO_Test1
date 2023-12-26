@@ -10,7 +10,8 @@ func main() {
 	// printTest.PrintTestLowercase()
 
 	//slice(list)
-	// SliceTestPrint()
+	// sliceTest1()
+	// sliceTest2()
 
 	//array
 	// ArrayTestPrint()
@@ -31,5 +32,8 @@ func main() {
 	// funcTest2()
 
 	//defer
-	deferTest1()
+	// deferTest1()
+
+	//delegate
+	delegateTest1()
 }
