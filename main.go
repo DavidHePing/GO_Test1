@@ -35,5 +35,6 @@ func main() {
 	// deferTest1()
 
 	//delegate
-	delegateTest1()
+	// delegateTest1()
+	delegateTest2()
 }
