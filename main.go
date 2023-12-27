@@ -36,5 +36,5 @@ func main() {
 
 	//delegate
 	// delegateTest1()
-	delegateTest2()
+	lambdaTest1()
 }
