@@ -36,5 +36,8 @@ func main() {
 
 	//delegate
 	// delegateTest1()
-	lambdaTest1()
+	// lambdaTest1()
+
+	//panic
+	panicTest1()
 }
