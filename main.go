@@ -39,5 +39,8 @@ func main() {
 	// lambdaTest1()
 
 	//panic
-	panicTest1()
+	// panicTest1()
+
+	//error
+	errorTest1()
 }
