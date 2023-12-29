@@ -6,6 +6,8 @@ import (
 )
 
 func errorTest1() {
+	errorTest1_1("123")
+	errorTest1_1("456")
 	errorTest1_1("")
 }
 
