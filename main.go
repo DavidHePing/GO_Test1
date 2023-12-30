@@ -54,5 +54,8 @@ func main() {
 	// strconvTest1()
 
 	//global
-	globalTest1()
+	// globalTest1()
+
+	//map
+	mapTest1()
 }
