@@ -51,5 +51,8 @@ func main() {
 	// stringBuilderTest1()
 
 	//strconv
-	strconvTest1()
+	// strconvTest1()
+
+	//global
+	globalTest1()
 }
