@@ -5,6 +5,7 @@ import "fmt"
 func mapTest1() {
 	mapTest1_1()
 	mapAddorUpdate()
+	mapLen()
 }
 
 func mapTest1_1() {
@@ -37,4 +38,19 @@ func mapAddorUpdate() {
 	fmt.Println("add f:5", m)
 	m["a"] = 100
 	fmt.Println("update a:100", m)
+	delete(m, "a")
+	fmt.Println("delete a", m)
+}
+
+func mapLen() {
+	m := make(map[string]int, 10)
+	fmt.Println("map init length", len(m))
+	m = map[string]int{
+		"a": 1,
+		"b": 2,
+		"c": 3,
+		"d": 4,
+	}
+	fmt.Println("map length", len(m))
+
 }
