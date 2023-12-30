@@ -6,6 +6,7 @@ func mapTest1() {
 	mapTest1_1()
 	mapAddorUpdate()
 	mapLen()
+	mapFor()
 }
 
 func mapTest1_1() {
@@ -43,6 +44,8 @@ func mapAddorUpdate() {
 }
 
 func mapLen() {
+	fmt.Println("--------")
+	fmt.Println("map len")
 	m := make(map[string]int, 10)
 	fmt.Println("map init length", len(m))
 	m = map[string]int{
@@ -53,4 +56,19 @@ func mapLen() {
 	}
 	fmt.Println("map length", len(m))
 
+}
+
+func mapFor() {
+	fmt.Println("--------")
+	fmt.Println("map for")
+	m := map[string]int{
+		"a": 1,
+		"b": 2,
+		"c": 3,
+		"d": 4,
+	}
+
+	for key, value := range m {
+		fmt.Println("key", key, "val", value)
+	}
 }
