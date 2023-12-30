@@ -42,5 +42,8 @@ func main() {
 	// panicTest1()
 
 	//error
-	errorTest1()
+	// errorTest1()
+
+	//string
+	stringTest1()
 }
