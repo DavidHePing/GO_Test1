@@ -7,7 +7,7 @@ import (
 func TestPrint() {
 	num1 := 123
 	num2 := 456
-	fmt.Println("Num1: ", num1, " Num2: ", num2)
+	fmt.Println("TestPrint!!! Num1: ", num1, " Num2: ", num2)
 }
 
 func PrintTestLowercase() {
