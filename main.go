@@ -57,5 +57,6 @@ func main() {
 	// globalTest1()
 
 	//map
-	mapTest1()
+	// mapTest1()
+	syncMapTest1()
 }
