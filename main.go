@@ -45,5 +45,8 @@ func main() {
 	// errorTest1()
 
 	//string
-	stringTest1()
+	// stringTest1()
+
+	//stringBuilder
+	stringBuilderTest1()
 }
