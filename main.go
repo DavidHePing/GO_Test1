@@ -62,5 +62,6 @@ func main() {
 
 	//threadSafe
 	// threadSafe.SyncMapTest1()
-	threadSafe.ConncurrentMapTest1()
+	// threadSafe.ConncurrentMapTest1()
+	threadSafe.MapNotThreadSafe()
 }
