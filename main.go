@@ -2,6 +2,7 @@ package main
 
 import (
 	"Go_Test1/printTest"
+	"Go_Test1/threadSafe"
 )
 
 func main() {
@@ -58,5 +59,8 @@ func main() {
 
 	//map
 	// mapTest1()
-	syncMapTest1()
+
+	//threadSafe
+	// threadSafe.SyncMapTest1()
+	threadSafe.ConncurrentMapTest1()
 }
