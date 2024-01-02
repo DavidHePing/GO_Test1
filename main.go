@@ -33,6 +33,8 @@ func main() {
 
 	//defer
 	// deferTest1()
+	deferTest2()
+	deferTest3()
 
 	//delegate
 	// delegateTest1()
