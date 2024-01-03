@@ -2,6 +2,7 @@ package main
 
 import (
 	"Go_Test1/printTest"
+	"Go_Test1/threadSafe"
 )
 
 func main() {
@@ -33,8 +34,8 @@ func main() {
 
 	//defer
 	// deferTest1()
-	deferTest2()
-	deferTest3()
+	// deferTest2()
+	// deferTest3()
 
 	//delegate
 	// delegateTest1()
@@ -65,4 +66,5 @@ func main() {
 	// threadSafe.SyncMapTest1()
 	// threadSafe.ConncurrentMapTest1()
 	// threadSafe.MapNotThreadSafe()
+	threadSafe.SyncMapReadWriteDiffKey(10000)
 }

@@ -10,6 +10,8 @@ func TestPrint() {
 	fmt.Println("TestPrint!!! Num1: ", num1, " Num2: ", num2)
 	num1, num2 = num2, num1
 	fmt.Println("Change 2 variable!!! Num1: ", num1, " Num2: ", num2)
+	fmt.Println("10/2", 10/2, "11/2", 11/2)
+	fmt.Println("11%10", 11%10, "1%10", 1%10)
 }
 
 func PrintTestLowercase() {
