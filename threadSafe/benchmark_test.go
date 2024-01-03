@@ -10,10 +10,18 @@ func BenchmarkConncurrentMapReadWriteDiffKey(b *testing.B) {
 	ConncurrentMapReadWriteDiffKey(b.N)
 }
 
-func BenchmarkSyncMapSameWriteDiffKey(b *testing.B) {
+func BenchmarkSyncMapReadWriteSameKey(b *testing.B) {
 	SyncMapReadWriteSameKey(b.N)
 }
 
 func BenchmarkConncurrentMapReadWriteSameKey(b *testing.B) {
 	ConncurrentMapReadWriteSameKey(b.N)
+}
+
+func BenchmarkSyncMapRead(b *testing.B) {
+	SyncMapRead(b.N)
+}
+
+func BenchmarkConncurrentMapRead(b *testing.B) {
+	ConncurrentMapRead(b.N)
 }

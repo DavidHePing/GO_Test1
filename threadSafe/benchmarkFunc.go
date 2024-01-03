@@ -102,3 +102,39 @@ func ConncurrentMapReadWriteSameKey(times int) {
 
 	wg.Wait()
 }
+
+func SyncMapRead(times int) {
+	times *= 2
+	var wg sync.WaitGroup
+	wg.Add(times)
+	m := sync.Map{}
+	m.Store("1", 1)
+
+	for i := 0; i < times; i++ {
+		num := i
+		go func() {
+			defer wg.Done()
+			m.Load(strconv.Itoa(num % 2))
+		}()
+	}
+
+	wg.Wait()
+}
+
+func ConncurrentMapRead(times int) {
+	times *= 2
+	var wg sync.WaitGroup
+	wg.Add(times)
+	m := cmap.New[int]()
+	m.Set("1", 1)
+
+	for i := 0; i < times; i++ {
+		num := i
+		go func() {
+			defer wg.Done()
+			m.Get(strconv.Itoa(num % 2))
+		}()
+	}
+
+	wg.Wait()
+}
