@@ -2,7 +2,24 @@ package printTest
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
 )
+
+type TestObj struct {
+	name string
+	no   int
+}
+
+func (t TestObj) String() string {
+	var builder strings.Builder
+	builder.WriteString("name: ")
+	builder.WriteString(t.name)
+	builder.WriteString("no: ")
+	builder.WriteString(strconv.Itoa(t.no))
+
+	return builder.String()
+}
 
 func TestPrint() {
 	num1 := 123
