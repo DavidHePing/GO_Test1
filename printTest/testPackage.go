@@ -15,7 +15,7 @@ func (t TestObj) String() string {
 	var builder strings.Builder
 	builder.WriteString("name: ")
 	builder.WriteString(t.name)
-	builder.WriteString("no: ")
+	builder.WriteString(" no: ")
 	builder.WriteString(strconv.Itoa(t.no))
 
 	return builder.String()

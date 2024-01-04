@@ -10,6 +10,7 @@ func main() {
 	printTest.TestPrint()
 	testObj := printTest.TestObj{}
 	fmt.Println(testObj)
+	fmt.Println("---Start!!!---")
 	// printTest.PrintTestLowercase()
 
 	//slice(list)
@@ -71,5 +72,5 @@ func main() {
 	// threadSafe.SyncMapReadWriteDiffKey(10000)
 
 	//struct
-
+	structTest1()
 }
