@@ -2,6 +2,7 @@ package main
 
 import (
 	"Go_Test1/printTest"
+	structTest2 "Go_Test1/stuctTest2"
 	"fmt"
 )
 
@@ -72,5 +73,6 @@ func main() {
 	// threadSafe.SyncMapReadWriteDiffKey(10000)
 
 	//struct
-	structTest1()
+	// structTest1.StructTestValueType()
+	structTest2.StructTestRefType()
 }
