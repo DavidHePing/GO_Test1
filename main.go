@@ -76,5 +76,8 @@ func main() {
 	// structTest2.StructTestRefType()
 
 	//inherit
-	inheritTest1()
+	// inheritTest1()
+
+	//interface
+	interfaceTest1()
 }
