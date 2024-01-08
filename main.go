@@ -79,5 +79,8 @@ func main() {
 	// inheritTest1()
 
 	//interface
-	interfaceTest1()
+	// interfaceTest1()
+
+	//enum
+	enumTest1()
 }
