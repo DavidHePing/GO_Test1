@@ -2,7 +2,6 @@ package main
 
 import (
 	"Go_Test1/printTest"
-	structTest2 "Go_Test1/stuctTest2"
 	"fmt"
 )
 
@@ -74,5 +73,8 @@ func main() {
 
 	//struct
 	// structTest1.StructTestValueType()
-	structTest2.StructTestRefType()
+	// structTest2.StructTestRefType()
+
+	//inherit
+	inheritTest1()
 }
