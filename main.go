@@ -39,6 +39,8 @@ func main() {
 	// deferTest1()
 	// deferTest2()
 	// deferTest3()
+	// defer_panic_test1()
+	defer_panic_test2()
 
 	//delegate
 	// delegateTest1()
@@ -82,5 +84,5 @@ func main() {
 	// interfaceTest1()
 
 	//enum
-	enumTest1()
+	// enumTest1()
 }

@@ -66,3 +66,17 @@ func deferTest3() {
 
 	wg.Wait()
 }
+
+func defer_panic_test1() {
+	defer fmt.Println("Is End!!!")
+	fmt.Println("defer_panic")
+
+	panic("Is Panic!!!!!")
+}
+
+func defer_panic_test2() {
+	fmt.Println("panic without defer")
+
+	panic("Is Panic!!!!!")
+	fmt.Println("Is End!!!")
+}
