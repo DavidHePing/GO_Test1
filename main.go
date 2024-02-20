@@ -13,6 +13,9 @@ func main() {
 	fmt.Println("---Start!!!---")
 	// printTest.PrintTestLowercase()
 
+	//float
+	float_test1()
+
 	//slice(list)
 	// sliceTest1()
 	// sliceTest2()
@@ -40,7 +43,7 @@ func main() {
 	// deferTest2()
 	// deferTest3()
 	// defer_panic_test1()
-	defer_panic_test2()
+	// defer_panic_test2()
 
 	//delegate
 	// delegateTest1()
