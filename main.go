@@ -14,7 +14,7 @@ func main() {
 	// printTest.PrintTestLowercase()
 
 	//float
-	float_test1()
+	// float_test1()
 
 	//slice(list)
 	// sliceTest1()
@@ -88,4 +88,7 @@ func main() {
 
 	//enum
 	// enumTest1()
+
+	//time
+	time_test1()
 }
