@@ -2,6 +2,7 @@ package main
 
 import (
 	"Go_Test1/printTest"
+	"Go_Test1/threadSafe"
 	"fmt"
 )
 
@@ -73,7 +74,7 @@ func main() {
 	//threadSafe
 	// threadSafe.SyncMapTest1()
 	// threadSafe.ConncurrentMapTest1()
-	// threadSafe.MapNotThreadSafe()
+	threadSafe.MapNotThreadSafe()
 	// threadSafe.SyncMapReadWriteDiffKey(10000)
 
 	//struct
@@ -90,5 +91,5 @@ func main() {
 	// enumTest1()
 
 	//time
-	time_test1()
+	// time_test1()
 }

@@ -10,5 +10,4 @@ func sliceTest2() {
 
 	li = append(li, 2)
 	fmt.Println(li)
-
 }
