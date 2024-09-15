@@ -92,5 +92,6 @@ func main() {
 	// time_test1()
 
 	//queue
-	Fake_Queue_Slice_Test1()
+	// Fake_Queue_Slice_Test1()
+	Fake_Queue_Slice_Test2()
 }
