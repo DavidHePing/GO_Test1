@@ -1,16 +1,14 @@
 package main
 
 import (
-	"Go_Test1/printTest"
-	"Go_Test1/threadSafe"
 	"fmt"
 )
 
 func main() {
 	//print
-	printTest.TestPrint()
-	testObj := printTest.TestObj{}
-	fmt.Println(testObj)
+	// printTest.TestPrint()
+	// testObj := printTest.TestObj{}
+	// fmt.Println(testObj)
 	fmt.Println("---Start!!!---")
 	// printTest.PrintTestLowercase()
 
@@ -74,7 +72,7 @@ func main() {
 	//threadSafe
 	// threadSafe.SyncMapTest1()
 	// threadSafe.ConncurrentMapTest1()
-	threadSafe.MapNotThreadSafe()
+	// threadSafe.MapNotThreadSafe()
 	// threadSafe.SyncMapReadWriteDiffKey(10000)
 
 	//struct
@@ -92,4 +90,7 @@ func main() {
 
 	//time
 	// time_test1()
+
+	//queue
+	Fake_Queue_Slice_Test1()
 }
