@@ -93,5 +93,8 @@ func main() {
 
 	//queue
 	// Fake_Queue_Slice_Test1()
-	Fake_Queue_Slice_Test2()
+	// Fake_Queue_Slice_Test2()
+
+	//linkedlist
+	linkedList_test1()
 }
