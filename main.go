@@ -94,10 +94,11 @@ func main() {
 	//queue
 	// Fake_Queue_Slice_Test1()
 	// Fake_Queue_Slice_Test2()
+	Fake_Queue_LinkedList_Test1()
 
 	//linkedlist
 	// linkedList_test1()
-	linkedList_test2()
+	// linkedList_test2()
 
 	//heap
 	// IntHeap1_Test1()
