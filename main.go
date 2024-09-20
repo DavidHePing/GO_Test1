@@ -97,9 +97,10 @@ func main() {
 
 	//linkedlist
 	// linkedList_test1()
+	linkedList_test2()
 
 	//heap
-	IntHeap1_Test1()
-	IntHeap2Desc_Test1()
+	// IntHeap1_Test1()
+	// IntHeap2Desc_Test1()
 	// PriorityQueue_Test1()
 }
