@@ -95,7 +95,7 @@ func main() {
 	// Fake_Queue_Slice_Test1()
 	// Fake_Queue_Slice_Test2()
 	// Fake_Queue_LinkedList_Test1()
-	Fake_Queue_LinkedList_Test2()
+	// Fake_Queue_LinkedList_Test2()
 
 	//linkedlist
 	// linkedList_test1()
@@ -105,4 +105,6 @@ func main() {
 	// IntHeap1_Test1()
 	// IntHeap2Desc_Test1()
 	// PriorityQueue_Test1()
+	PriorityQueue_Test2()
+	PriorityQueue_Test3()
 }
